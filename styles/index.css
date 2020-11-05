@@ -107,4 +107,53 @@ header {
     margin-right: auto;
 }
 
+.header-article h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-article {
+    margin-top: 50px;
+}
+
+.link-box {
+    display: flex;
+    align-items: center;
+}
+
+.icons-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+} 
+
+.icons-link i {
+    margin-right: 15px;
+    background-color: rgb(223, 207, 207);
+    border-radius: 15px;
+    align-self: center;
+    height: 22px;
+    width: 30px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+.link-number {
+    height: 30px;
+    
+}
+
+.link-date {
+    display: flex;
+    flex: 1;
+}
+
+.link-date p {
+    font-size: 14px;
+    color: rgb(116, 112, 112);
+    font-family: sans-serif;
+}
 /* -------- End article content -------- */
