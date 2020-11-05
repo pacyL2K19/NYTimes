@@ -1,0 +1,65 @@
+/* ---------- Header ---------- */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    border: solid rgb(112, 110, 110);
+    width: 100%;
+    border-width: 0 0 1px 0;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+.nav-icon-side, .nav-logo-side, .nav-btn-side {
+    display: flex;
+    flex: 1;
+}
+
+.nav-icon-side {
+    padding: 8px;
+}
+
+.fa-bars {
+    margin-right: 25px;
+}
+
+.fa-search {
+    margin-right: 25px;
+}
+
+.nav-icon-side a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.nav-btn-side {
+    justify-content: flex-end;
+}
+
+.nav-btn-side button {
+    height: 88%;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: rgb(86, 123, 149);
+    border-radius: 2px;
+    border: 1px solid rgb(86, 123, 149);
+    color: white;
+}
+
+.logo {
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------- End Header -------- */
