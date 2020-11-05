@@ -99,3 +99,12 @@ header {
 }
 
 /* -------- End Header -------- */
+/* -------- article content -------- */
+
+.article-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* -------- End article content -------- */
