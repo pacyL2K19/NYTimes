@@ -1,4 +1,4 @@
-/* ---------- Header ---------- */
+/* ---------- navbar ---------- */
 nav {
     display: flex;
     flex-direction: row;
@@ -60,6 +60,42 @@ header {
     height: 35px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* -------- End nav -------- */
+/* -------- Main header -------- */
+
+.main-article {
+    padding-top: 100px;
+}
+
+.main-article {
+    width: 100%;
+}
+
+.img-article img {
+    width: 100%;
+}
+
+.main-title .header {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title .header h2 {
+    font-size: 40px;
+    font-style: italic;
+    margin-left: 180px;
+}
+
+.main-title .header p {
+    color: rgb(94, 89, 89);
+}
+
+.main-title .header span {
+    color: rgb(146, 140, 140);
+    font-size: 14px;
 }
 
 /* -------- End Header -------- */
