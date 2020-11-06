@@ -82,7 +82,7 @@ footer a {
 .img-desc img {
   width: 100%;
 }
- 
+
 .img-desc p {
   font-size: 14.5px;
   color: rgb(114, 108, 108);
@@ -105,7 +105,7 @@ footer a {
   font-family: sans-serif;
   margin-top: 3px;
 }
-  
+
 .more-card p {
   font-size: 18px;
 }
@@ -114,9 +114,15 @@ footer a {
   font-size: 12px;
   font-family: sans-serif;
 }
-  
+
 .more-1-header h2 {
   font-size: 18px;
+}
+
+footer .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .main-title .header {
@@ -453,12 +459,6 @@ footer {
   margin-top: -330px;
   padding: 15px;
   border-top: 1px double rgb(148, 139, 139);
-}
-
-footer .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
 }
 
 .logo-footer {
