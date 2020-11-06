@@ -30,6 +30,10 @@ footer a {
   flex: 1;
 }
 
+.nav-logo-side {
+  justify-content: center;
+}
+
 .nav-icon-side {
   padding: 8px;
 }
