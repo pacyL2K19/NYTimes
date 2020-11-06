@@ -157,3 +157,11 @@ header {
     font-family: sans-serif;
 }
 /* -------- End article content -------- */
+/* -------- Main article content -------- */
+
+.article-content p {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+/* -------- End article content -------- */
