@@ -82,12 +82,12 @@ footer a {
 .img-desc img {
   width: 100%;
 }
-  
+ 
 .img-desc p {
   font-size: 14.5px;
   color: rgb(114, 108, 108);
 }
-  
+
 .img-desc p span {
   font-size: 13.5px;
   color: rgb(153, 144, 144);
@@ -95,6 +95,28 @@ footer a {
 
 .img-article img {
   width: 100%;
+}
+
+.more-card h4 {
+  text-align: start;
+  font-weight: lighter;
+  color: rgb(197, 184, 184);
+  font-size: 10px;
+  font-family: sans-serif;
+  margin-top: 3px;
+}
+  
+.more-card p {
+  font-size: 18px;
+}
+
+.more-1-header p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+  
+.more-1-header h2 {
+  font-size: 18px;
 }
 
 .main-title .header {
@@ -173,6 +195,13 @@ footer h3 {
 .link-box {
   display: flex;
   align-items: center;
+}
+
+.more-1-elmt i {
+  float: right;
+  padding: 8px;
+  border-radius: 23px;
+  border: 1px solid black;
 }
 
 .icons-link {
@@ -359,15 +388,6 @@ iframe {
   padding: 5px;
 }
 
-.more-1-header p {
-  font-size: 12px;
-  font-family: sans-serif;
-}
-
-.more-1-header h2 {
-  font-size: 18px;
-}
-
 .more-1-elmt {
   margin: 7.5px;
   border: 1px solid rgb(228, 217, 217);
@@ -376,13 +396,6 @@ iframe {
 
 .more-1-elmt:hover {
   box-shadow: 0 0 2px gray;
-}
-
-.more-1-elmt i {
-  float: right;
-  padding: 8px;
-  border-radius: 23px;
-  border: 1px solid black;
 }
 
 .more-1-elmt .texts {
@@ -432,19 +445,6 @@ iframe {
   margin-top: 3px;
 }
 
-.more-card h4 {
-  text-align: start;
-  font-weight: lighter;
-  color: rgb(197, 184, 184);
-  font-size: 10px;
-  font-family: sans-serif;
-  margin-top: 3px;
-}
-
-.more-card p {
-  font-size: 18px;
-}
-
 /* ------------ End Realted post design ------------ */
 
 /* ------------ Footer ------------ */
@@ -485,7 +485,7 @@ footer .main {
   background-color: white;
   border-top: 1px solid black;
   position: fixed;
-  bottom: 0px;
+  bottom: 0.1px;
   width: 100%;
   padding: 25px;
 }
