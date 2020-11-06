@@ -446,4 +446,36 @@ footer .main {
     justify-content: space-between;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.fixed-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 25px;
+}
+
+footer .x-right {
+    margin-right: 100px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(73, 70, 70);
+    font-size: 12px;
+}
+
+footer h3 {
+    font-family: sans-serif;
+    font-size: 13px;
+}
 /* ------------ End Footer ------------ */
