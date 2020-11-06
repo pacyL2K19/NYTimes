@@ -276,7 +276,7 @@ header {
 }
 
 .article-content .article-extend a {
-    color: rgb(83, 79, 79);;
+    color: rgb(83, 79, 79);
 }
 
 /* --------- Prepare footer ---------- */
@@ -298,3 +298,99 @@ header {
     border: 1px solid rgb(86, 123, 149);
     color: white;
 }
+
+/* ------------ Realted post design ------------ */
+
+.separator-more {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(179, 173, 173);
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.more-main {
+    width: 100%;
+    padding-left : 10px;
+    padding-right: 10px;
+}
+
+.more-card {
+    margin: 10px;
+}
+
+.more-2 {
+    margin-top: 50px;
+}
+
+.more-1-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding : 5px;
+}
+
+.more-1-header p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.more-1-header h2 {
+    font-size: 18px;
+}
+
+.more-1-elmt {
+    margin: 7.5px;
+    border: 1px solid rgb(228, 217, 217);
+    padding: 10px;
+}
+
+.more-1-elmt i {
+    float: right;
+    padding: 8px;
+    border-radius: 23px;
+    border: 1px solid black;
+}
+
+.more-1-elmt .texts {
+    font-family: sans-serif;
+}
+
+.more-1-elmt .link {
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    align-self: flex-end;
+}
+
+.more-1-elmt .link a {
+    color: rgb(90, 121, 139);
+    text-decoration: none;
+}
+
+.more-1-elmt .titles h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(179, 173, 173);
+    font-weight: lighter;
+}
+
+.more-1-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.more-2-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.more-2-body .more-card img {
+    width: 100%;
+}
+/* ------------ End Realted post design ------------ */
