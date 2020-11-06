@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML and CSS Signup form
+# New York Time artile page
 
 > This is a clone of the New York page web article page
 
