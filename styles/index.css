@@ -7,7 +7,7 @@ nav {
 
 header {
   position: fixed;
-  top: 0px;
+  top: 0.1px;
   background-color: white;
   border: solid rgb(112, 110, 110);
   width: 100%;
@@ -16,8 +16,8 @@ header {
   padding-right: 8px;
 }
 
-.nav-icon-side, 
-.nav-logo-side, 
+.nav-icon-side,
+.nav-logo-side,
 .nav-btn-side {
   display: flex;
   flex: 1;
@@ -63,7 +63,9 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* -------- End nav -------- */
+
 /* -------- Main header -------- */
 .main-article {
   padding-top: 100px;
@@ -94,12 +96,19 @@ header {
   color: rgb(146, 140, 140);
   font-size: 14px;
 }
+
 /* -------- End Header -------- */
+
 /* -------- article content -------- */
 .article-content {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer h3 {
+  font-family: sans-serif;
+  font-size: 13px;
 }
 
 .header-article h3 {
@@ -149,7 +158,9 @@ header {
   display: flex;
   flex: 1;
 }
+
 /* -------- End article content -------- */
+
 /* -------- Main article content -------- */
 .article-content p {
   font-size: 20px;
@@ -164,8 +175,8 @@ header {
 }
 
 /* -------- End article content -------- */
-/* -------- Transitions and separators -------- */
 
+/* -------- Transitions and separators -------- */
 .article-transition {
   display: flex;
   flex-direction: column;
@@ -189,6 +200,7 @@ header {
 }
 
 /* -------- End Transitions -------- */
+
 /* -------- Transition with images -------- */
 
 .img-and-article {
@@ -240,6 +252,7 @@ header {
 }
 
 /* -------- End Transitions -------- */
+
 /* -------- Video and img describers -------- */
 
 .article-content .div .video-descrip {
@@ -357,6 +370,13 @@ iframe {
   box-shadow: 0 0 2px gray;
 }
 
+footer a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(73, 70, 70);
+  font-size: 12px;
+}
+
 .more-1-elmt i {
   float: right;
   padding: 8px;
@@ -425,6 +445,7 @@ iframe {
 }
 
 /* ------------ End Realted post design ------------ */
+
 /* ------------ Footer ------------ */
 
 footer {
@@ -472,18 +493,6 @@ footer .x-right {
   margin-right: 100px;
 }
 
-footer a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: rgb(73, 70, 70);
-  font-size: 12px;
-}
-
-footer h3 {
-  font-family: sans-serif;
-  font-size: 13px;
-}
-
 .icons-footer {
   height: 15px;
   width: 15px;
@@ -494,4 +503,5 @@ footer h3 {
   margin-top: 10px;
   margin-bottom: 50px;
 }
+
 /* ------------ End Footer ------------ */
