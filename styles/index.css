@@ -299,6 +299,10 @@ header {
     color: white;
 }
 
+iframe {
+    width: 100%;
+}
+
 /* ------------ Realted post design ------------ */
 
 .separator-more {
@@ -384,6 +388,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .more-2-body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -393,4 +398,27 @@ header {
 .more-2-body .more-card img {
     width: 100%;
 }
+
+.more-card h5 {
+    text-align: end;
+    font-weight: lighter;
+    color: rgb(197, 184, 184);
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 3px;
+}
+
+.more-card h4 {
+    text-align: start;
+    font-weight: lighter;
+    color: rgb(197, 184, 184);
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: 3px;
+}
+
+.more-card p {
+    font-size: 18px;
+}
+
 /* ------------ End Realted post design ------------ */
