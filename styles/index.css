@@ -422,3 +422,28 @@ iframe {
 }
 
 /* ------------ End Realted post design ------------ */
+/* ------------ Footer ------------ */
+
+footer {
+    margin-top: -330px;
+    padding: 15px;
+    border-top: 1px double rgb(148, 139, 139);
+}
+
+footer .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.logo-footer {
+    height: 40px;
+}
+
+footer .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ------------ End Footer ------------ */
