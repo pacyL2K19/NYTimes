@@ -139,8 +139,8 @@ footer .header {
 
 .article-content p {
   font-size: 20px;
-  letter-spacing: 1.5px;
   text-align: justify;
+  margin-bottom: 5px;
 }
 
 .link-date {
