@@ -16,6 +16,13 @@ header {
   padding-right: 8px;
 }
 
+footer a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: rgb(73, 70, 70);
+  font-size: 12px;
+}
+
 .nav-icon-side,
 .nav-logo-side,
 .nav-btn-side {
@@ -72,6 +79,20 @@ header {
   width: 100%;
 }
 
+.img-desc img {
+  width: 100%;
+}
+  
+.img-desc p {
+  font-size: 14.5px;
+  color: rgb(114, 108, 108);
+}
+  
+.img-desc p span {
+  font-size: 13.5px;
+  color: rgb(153, 144, 144);
+}
+
 .img-article img {
   width: 100%;
 }
@@ -108,6 +129,12 @@ header {
 
 .img-and-article p {
   color: rgb(114, 108, 108);
+}
+
+.link-date p {
+  font-size: 14px;
+  color: rgb(116, 112, 112);
+  font-family: sans-serif;
 }
 
 .main-title .header p {
@@ -179,12 +206,6 @@ footer h3 {
 /* -------- End article content -------- */
 
 /* -------- Main article content -------- */
-
-.link-date p {
-  font-size: 14px;
-  color: rgb(116, 112, 112);
-  font-family: sans-serif;
-}
 
 /* -------- End article content -------- */
 
@@ -266,20 +287,6 @@ footer h3 {
   color: rgb(153, 144, 144);
 }
 
-.img-desc img {
-  width: 100%;
-}
-
-.img-desc p {
-  font-size: 14.5px;
-  color: rgb(114, 108, 108);
-}
-
-.img-desc p span {
-  font-size: 13.5px;
-  color: rgb(153, 144, 144);
-}
-
 /* -------- End Describers -------- */
 
 .article-content .article-extend {
@@ -332,7 +339,7 @@ iframe {
 
 .more-main {
   width: 100%;
-  padding-left : 10px;
+  padding-left: 10px;
   padding-right: 10px;
 }
 
@@ -349,7 +356,7 @@ iframe {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding : 5px;
+  padding: 5px;
 }
 
 .more-1-header p {
@@ -369,13 +376,6 @@ iframe {
 
 .more-1-elmt:hover {
   box-shadow: 0 0 2px gray;
-}
-
-footer a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: rgb(73, 70, 70);
-  font-size: 12px;
 }
 
 .more-1-elmt i {
